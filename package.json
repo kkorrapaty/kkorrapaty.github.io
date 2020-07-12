@@ -2,6 +2,7 @@
     "title": "Creative",
     "name": "startbootstrap-creative",
     "version": "6.0.3",
+    "homepage": "https://kkorrapaty.github.io/",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -11,7 +12,9 @@
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
         "s": "node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node scripts/start-debug.js",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -b master -d build",
     },
     "description": "Creative is a stylish one page HTML theme built with Bootstrap.",
     "keywords": [
@@ -24,7 +27,6 @@
         "theme",
         "template"
     ],
-    "homepage": "https://kkorrapaty.github.io/",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-creative/issues",
         "email": "feedback@startbootstrap.com"
