@@ -10166,6 +10166,8 @@ header.masthead h1 {
 }
 
 .icon-img {
-    width: 90px;
-    height: 90px;
+    max-width: 90px;
+    max-height: 90px;
+    width: auto;
+    height: auto;
 }
