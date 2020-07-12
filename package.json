@@ -10,6 +10,7 @@
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
+        "s": "node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
     "description": "Creative is a stylish one page HTML theme built with Bootstrap.",
