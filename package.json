@@ -2,7 +2,6 @@
     "title": "Creative",
     "name": "startbootstrap-creative",
     "version": "6.0.3",
-    "homepage": "https://kkorrapaty.github.io/",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -25,6 +24,7 @@
         "theme",
         "template"
     ],
+    "homepage": "https://startbootstrap.com/themes/creative",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-creative/issues",
         "email": "feedback@startbootstrap.com"
